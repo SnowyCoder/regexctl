@@ -3,7 +3,7 @@ project(regexctl)
 
 set(CMAKE_CXX_STANDARD 17)
 
-set(SOURCE_FILES main.cpp)
+file(GLOB SOURCE_FILES "src/*.h" "src/*.cpp")
 
 set(CMAKE_CXX_FLAGS "-Os")
 
